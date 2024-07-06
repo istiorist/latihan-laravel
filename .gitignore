@@ -1,0 +1,48 @@
+# Laravel-specific files
+/vendor/
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.testing
+.env.production
+Homestead.yaml
+Homestead.json
+.vagrant
+
+# IDE and editor files
+/.idea
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+/storage/*.key
+/storage/logs/*.log
+/storage/framework/cache/*.php
+/storage/framework/sessions/*.php
+/storage/framework/views/*.php
+
+# Laravel Mix
+/public/hot
+/public/storage
+/public/mix-manifest.json
+/public/js/*.js.map
+/public/css/*.css.map
+
+# Coverage reports
+/coverage/
+
+# Composer generated files
+/composer.lock
+
+# PHPUnit
+.phpunit.result.cache
+
+# Ignored files
+/.env.example
